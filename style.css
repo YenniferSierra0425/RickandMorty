@@ -1,0 +1,171 @@
+*{
+    /*Selector universal*/
+    margin: 0;
+    padding: 0;
+}
+
+/*Index*/
+body{
+    background-color: rgb(7, 179, 121);
+}
+
+.main-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(29, 226, 111);
+    color: white;
+}
+
+.opt-menu{
+    justify-content: flex-end;
+    width: 100%;
+
+}
+.opt-menu li {
+list-style: none;
+width: 15%;
+}
+
+.opt-menu a:hover {
+    background-color: rgb(9, 240, 163); 
+    color: black;
+    border: 8px rgb(9, 240, 163);
+    border-radius: 45px;
+    
+    }
+
+    .container{
+        margin: 5% 10% 3% 8%;
+        text-align: center;
+        font-family:  'Long Cang', cursive;
+        font-size: 30px;
+    }
+
+   .main-charecters{
+       display: flex;
+       flex-wrap: wrap;
+   }
+   .charecter{
+       width: 25%;
+       margin: 3%;
+       border: 2px #e6e6e6 solid;
+       border-right: 4px #e6e6e6 solid;
+       border-bottom: 4px #e6e6e6 solid;
+       border-radius: 5px;
+       text-align: center;
+       font-size: 15px;
+   }
+   .charecter img{
+   width: 90%;
+   border-radius: 3%;
+
+   }
+   .charecter div{
+       width: 90%;
+       text-align: justify;
+       padding: 3%;
+
+   }
+
+
+
+   .charecter h2{
+       font-weight: bold;
+       margin-bottom: 3%;
+       font-family: 'Gayathri', sans-serif;
+   }
+
+   footer{
+       background-color:  rgb(6, 211, 91);
+       color: white;
+       height: 80px;
+       text-align: center;
+       
+   }
+
+
+   footer p{
+       padding-top: 2%;
+   }
+
+   .fa-heart{
+       color: blue;
+       font-size: 20px;
+   }
+
+   
+/*Acerca de mi*/
+
+ .opt-menu a{
+     color: #e6e6e6;
+ }
+
+    
+/*Formulario*/
+    
+
+    
+
+    .form-flex{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        
+    }
+
+    .input-form{
+        margin-bottom: 2%;
+    }
+    
+    .input-form div{
+        width: 30%;
+        float: left;
+    }
+
+    .input-form input{
+        width: 60%;
+    }
+
+    .form-button{
+        text-align: center;
+
+    }
+
+    .form-button button{
+        background-color: black;
+        color: white;
+        border: 5px solid;
+        border-radius: 30px;
+        width: 15%;
+        height: 50px;
+
+    }
+    .form-flex input{
+        height: 30px;
+        border:2px rgb(10, 127, 156);
+        border-radius: 10px;
+    }
+
+    
+    .options{
+        width: 40%;
+        text-align: left;
+
+    }
+
+    
+.opt{
+    display:flex;
+    justify-content: space-between;
+}
+
+.opt h4{
+    text-align: center;
+}
+.opt input{
+    width: 10%;
+}
+
+    
+        
